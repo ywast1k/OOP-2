@@ -8,6 +8,10 @@ public class TaxInspector implements iActorBehaviour{
     private boolean isTakeOrder;
     private boolean isMakeOrder;
 
+    /**
+     * Обьявление name
+     * @param TaxInspector
+     */
     public TaxInspector() {
         this.name = "Налоговый инспектор";
     }

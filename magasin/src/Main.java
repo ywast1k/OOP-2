@@ -6,6 +6,7 @@ import classes.SpecialClient;
 import classes.TaxInspector;
 import classes.ActionKlient;
 public class Main {
+    
     public static void main(String[] args) throws Exception {  // Основная сборка всей программы
             // подключение клиентов
         Market magnit = new Market();                          
