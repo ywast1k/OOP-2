@@ -1,5 +1,6 @@
 package classes;
-
+// Класс Инспектор.
+// Спец клиент со статичным приходом
 import interfaces.iActorBehaviour;
 
 public class TaxInspector implements iActorBehaviour{

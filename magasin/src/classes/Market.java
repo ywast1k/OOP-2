@@ -14,6 +14,7 @@ public class Market implements iMarketBehaviour, iQueueBehaviour {
         this.queue = new ArrayList<iActorBehaviour>();
     }
 
+    
     @Override
     public void acceptToMarket(iActorBehaviour actor) {
         System.out.println(actor.getActor().getName() + " клиент пришел в магазин ");
