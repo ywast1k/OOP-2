@@ -32,4 +32,5 @@ public class TaxInspector implements iActorBehaviour{
     public void setTakeOrder(boolean isCreated) {
         isTakeOrder = isCreated;
     }
+
 }

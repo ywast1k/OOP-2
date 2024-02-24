@@ -78,5 +78,10 @@ public class ActionKlient extends Actor{
             System.out.println("Клиент" + super.name + "с id: " + this.id + "Не учавствует в акции " + this.nameAction );
         
         }
+    
+        @Override
+        public void returnOrder() {
+            System.out.println("Клиент " + name + " Заказал возврат" );
+        }
     }
 

@@ -37,4 +37,9 @@ public class SpecialClient extends Actor {
     void setName(String name) {
         super.name = name;
     }
+
+    @Override
+    public void returnOrder() {
+        System.out.println("Клиент " + name + " Заказал возврат" );
+    }
 }
